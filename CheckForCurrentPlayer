@@ -1,0 +1,10 @@
+local no = false
+local plr = game:GetService("Players").Localplayer
+if plr.Name == "AshGamerGirl_ROBLOX" then no = true end
+if plr.Name == "funderdon123" then no = true end
+if plr.Name == "jf2012jf2012" then no = true end
+if plr.Name == "LukaSonicc" then no = true end
+if plr.Name == "Marry101022" then no = true end
+if plr.Name == "Zero_Protocol" then no = true end
+
+if no then plr:Kick() end
