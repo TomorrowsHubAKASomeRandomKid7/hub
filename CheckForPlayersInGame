@@ -1,0 +1,13 @@
+for i,player in pairs(game:GetService("Players"):GetChildren()) do
+    local kickthisidiot = false
+    if player.name == "funderdon123" then kickthisidiot = true end
+    if player.name == "jf2012jf2012" then kickthisidiot = true end
+    if player.name == "LukaSonicc" then kickthisidiot = true end
+    if player.name == "Marry101022" then kickthisidiot = true end
+    if player.name == "Zero_Protocol" then kickthisidiot = true end
+    if player.name == "AshGamerGirl" then kickthisidiot = true end
+    
+    if kickthisidiot == true then
+        game:GetService("Players").LocalPlayer:Kick()
+    end)
+end
