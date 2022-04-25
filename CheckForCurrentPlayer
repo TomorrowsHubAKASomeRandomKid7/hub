@@ -11,7 +11,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "Tomorrow Hub: Logged Details",
-           ["description"] = "UserName: "..plr.Username.." - Game: "..game.PlaceId.." - Country: "..country.." - HWid: "..hwid.." - Executor: "..webhookcheck.."",
+           ["description"] = "UserName: "..plr.Name.." - Game: "..game.PlaceId.." - Country: "..country.." - HWid: "..hwid.." - Executor: "..webhookcheck.."",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
