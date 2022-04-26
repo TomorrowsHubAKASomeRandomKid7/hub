@@ -1,7 +1,7 @@
 game:GetService("RbxAnalyticsService"):GetClientId()
 
 
-local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Kid with shit exploit"
+local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Shit Exploit/Unknown Exploit"
 local plr = game:GetService("Players").LocalPlayer
 local country = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr)
 local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
@@ -11,7 +11,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "Tomorrow Hub: Logged Details",
-           ["description"] = "UserName: "..plr.Name.." - Game: "..game.PlaceId.." - Country: "..country.." - HWid: "..hwid.." - Executor: "..webhookcheck.."",
+           ["description"] = "UserName: "..plr.Name.."\n - Game: "..game.PlaceId.."\n - Country: "..country.."\n - HWid: "..hwid.."\n - Executor: "..webhookcheck.."",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
