@@ -2,13 +2,14 @@ local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "Proto
 local plr = game:GetService("Players").LocalPlayer
 local country = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr)
 local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+game:GetService("hacxerdude4 stop using my hub")
 
 local url = "https://webhook.lewistehminerz.dev/api/webhooks/967597785534840892/AzzhDhGUeQPwk_VFZ5HDsNfxfDM4osgLR1fBEvTpEcB_-T7QhoSs8d_8LgJA65yTLH7n"
 local data = {
    ["embeds"] = {
        {
            ["title"] = "Tomorrow Hub: Logged Details",
-           ["description"] = "UserName: "..plr.Name.."\n - Game: "..game.PlaceId.."\n - Country: "..country.."\n - HWid: "..hwid.."\n - Executor: "..webhookcheck.."",
+           ["description"] = "UserName: "..plr.Name.."\n - Game: "..game.PlaceId.."\n - Country: "..country.."\n - HWid: "..hwid.."\n - Executor: "..webhookcheck.."\n \n -Kicked Player-",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
